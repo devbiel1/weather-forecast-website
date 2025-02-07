@@ -1,3 +1,10 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
 .icon-max {
 
     max-width: 250px;
@@ -7,5 +14,28 @@
 .custom-container {
 
     max-width: 500px;
+
+}
+
+.custom-gradient {
+
+    background-image: linear-gradient(to top, #00769e, #007ea6, #0087af, #148fb8, #2797c1, #35a0ca, #41a9d3);
+
+}
+
+.custom-fonts-temperature {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+.custom-fonts-details {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 0;
 
 }
